@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,300;1,300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: hsla(16, 100%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%);
+
+
+    
+    
+}
+#clock{
+    min-height: 30%;
+    width:50%;
+    display: flex;
+    border:2px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 4rem;
+    
+}
+#date{
+    font-size: 1.5rem;
+}
+footer{
+    margin-bottom: opx;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:645px){
+    #clock{
+        width:95%;
+        min-height: 100px;
+    }
+    #time{
+        font-size: 2.5rem;
+    }
+    #date{
+        font-size: 1.5rem;
+    }
+    
+}
